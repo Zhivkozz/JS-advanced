@@ -1,20 +1,22 @@
 function name(imput) {
-    let comands = {
-        counter: 1,
-        add:(arr, num)=>[...arr, num],
-        remove: (arr)=>[...arr.slice(0, arr.lenth-1)]
-    };
-    let result =imput.reduce((acc, curr)=>{
-        acc= comands[curr](acc, comands.counter);
-        comands.counter++;
-        return acc;
-    },[]);
-    return result.lenth===0 ? "Empty": result.join("\n");
-}
+    let num = 1;
+    let result = []
+
+    for (let i = 0; i < imput.length; i++) {
+        if (imput[i]=== "add")  {
+            result.push(num);
+        } else {result.pop()};
+       // console.log(imput[i])
+        num++;
+    }
+    return result.length===0 ? "Empty" : result.join("\n")
+} //100/100
 console.log(name(	[
     'add', 
-'add', 
-'remove', 
-'add', 
-'add']	
+    'add', 
+    'remove', 
+    'add', 
+    'add'
+    
+]	
 ));
