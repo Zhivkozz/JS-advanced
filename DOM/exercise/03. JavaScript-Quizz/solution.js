@@ -1,3 +1,3 @@
 function solve() {
-  //TODO...
+  let current = document.getElementById("quizzie")
 }
