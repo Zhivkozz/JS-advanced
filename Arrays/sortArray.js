@@ -14,7 +14,7 @@ function name(params) {
           if (nameA < nameB) {
             return -1;
           }
-    return 0
+    return 0 
       });
       a.forEach(element => {
           console.log(element)
@@ -24,5 +24,5 @@ name(['Isacc',
 'Theodor', 
 'Jack', 
 'Harrison', 
-'George']
+'Georgeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']
 )
