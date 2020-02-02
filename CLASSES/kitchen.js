@@ -5,10 +5,14 @@ class Kitchen {
     this.productsInStock;
     this.actionsHistory;
   }
-  LoadProducts(products ) {
-      
+  loadProducts(products) {
+      console.log(products);
   }
-  AddToMenu() {}
-  ShowTheMenu() {}
-  MakeTheOrder()
-}
+  addToMenu(items) {
+
+  }
+  showTheMenu() {}
+  mkakeTheOrder() {}
+}mnbxrrxw`\3333   nn
+let kitchen = new Kitchen (1000);
+console.log(kitchen.loadProducts(['Banana 10 5', 'Banana 20 10', 'Strawberries 50 30', 'Yogurt 10 10', 'Yogurt 500 1500', 'Honey 5 50']));
