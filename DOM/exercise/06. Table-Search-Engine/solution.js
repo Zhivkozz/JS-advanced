@@ -1,3 +1,3 @@
-function solve() {
+8njjjj    function solve() {
    //TODO...
 }
