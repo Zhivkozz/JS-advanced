@@ -12,12 +12,13 @@ class Name {
     increase(length) {
         this.innerLength += length;
     }
-}
+}  
 
 **DOM**
 xxx = document.createElement ("div")
-
+xxx.listOfG.childElementCount
 xxx.style.display = "block"; // "none"
+ this.parentNode.parentNode.removeChild(this.parentNode);
 
 xxx.innerHTML = "";
 
